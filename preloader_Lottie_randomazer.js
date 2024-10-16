@@ -38,7 +38,7 @@ function hideOverlay() {
         renderer: 'svg', // ou 'canvas' se preferir
         loop: true,
         autoplay: true,
-        path: 'https://JediJNP.github.io/Preloader-for-FF-Apps/Animation - random.json',
+        path: 'https://JediJNP.github.io/Preloader-for-FF-Apps/Animation-Lottie-randommizer.json',
     });
 }
 
