@@ -32,10 +32,9 @@ document.body.appendChild(lottieContainer);
 function hideOverlay() {
     overlay.style.display = 'none';
     lottieContainer.style.display = 'block';
-    // Substitua pela URL direta do seu arquivo JSON do Lottie.
     lottie.loadAnimation({
         container: lottieContainer,
-        renderer: 'svg', // ou 'canvas' se preferir
+        renderer: 'svg',
         loop: true,
         autoplay: true,
         path: 'https://JediJNP.github.io/Preloader-for-FF-Apps/Animation-Lottie-randommizer.json',
@@ -43,7 +42,5 @@ function hideOverlay() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    hideOverlay(); // Teste sem o setTimeout
+    hideOverlay(); // Teste без setTimeout
 });
-
-window.addEventListener('load', hideOverlay);
